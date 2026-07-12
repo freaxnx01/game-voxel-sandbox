@@ -16,10 +16,14 @@ Your world auto-saves to the browser (`localStorage`). Use *reset world* on the 
 
 ## Tech
 
-- Vanilla JavaScript + [three.js](https://threejs.org/) 0.160 (loaded from CDN)
+- Vanilla JavaScript + [three.js](https://threejs.org/) 0.160 (vendored locally in `vendor/`, no CDN)
 - Procedurally generated terrain, chunked meshing, pointer-lock first-person controls
-- 100% static — hostable anywhere (GitHub Pages, Netlify, a USB stick)
+- 100% static and fully self-contained — hostable anywhere (GitHub Pages, Netlify, a USB stick), works offline
 
 ## Run locally
 
-Just open `index.html` in a browser. (An internet connection is needed once to fetch three.js from CDN.)
+Just open `index.html` in a browser — no internet connection required.
+
+## License
+
+[MIT](LICENSE)
